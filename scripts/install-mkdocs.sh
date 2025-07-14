@@ -9,4 +9,5 @@ pip install \
     mkdocs-git-revision-date-localized-plugin \
     mkdocs-simple-hooks \
     mkdocs-rss-plugin \
+    mkdocs-to-pdf \
     plugins/mkdocs-git-committers-plugin-2

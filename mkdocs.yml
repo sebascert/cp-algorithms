@@ -56,6 +56,10 @@ markdown_extensions:
       permalink: true
 
 plugins:
+  - to-pdf:
+      enabled: !ENV [MKDOCS_ENABLE_TO_PDF, False]
+      render_js: true
+      headless_chrome_path: !ENV MKDOCS_TO_PDF_CHROME_PATH
   - toggle-sidebar:
       toggle_button: all
   - mkdocs-simple-hooks:
